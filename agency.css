@@ -1,0 +1,421 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: poppins;
+    text-align: center;
+    background-color: rgb(14, 2, 50);
+}
+
+.wrapper {
+    width: 90%;
+    height: 0, auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(14, 2, 51);
+    position: fixed;
+    z-index: 1;
+}
+.logo {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #f9f5f5;
+    font-size: 15px;
+    padding: 0px 0px;
+    margin: 0 0px;
+}
+
+img {
+    width: auto;
+    height: 100px;
+}
+
+nav {
+    float: right;
+    line-height: 100px; 
+    height: 100%;
+}
+
+nav li {
+    display: inline;
+    padding: 10px 10px;
+    margin: 0 10px;
+    
+}
+
+nav a {
+    color: #f8f5f5;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:rgb(14, 2, 51);
+    border-radius: 4px;
+}
+
+.header-bar p {
+    color: rgb(244, 247, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.banner-area {
+    background-image: url(/webdev-banner.webp);
+    background-size: cover;
+    background-position: center, center;
+    top: 100px;
+    width: 100%;
+    height: 100vh;
+    position:static;
+    display: block;
+    z-index: -1;
+}
+
+.list-group {
+    color: floralwhite;
+    height: 50px;
+    float: left;
+    display: inline;
+    margin: 0 10px;
+    padding: 10px 10px;
+
+}
+
+.list-group li {
+    display: inline;
+    padding: 10px 10px;
+    margin: 0 10px;
+    color: #f8f5f5;
+    margin-top: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(14, 2, 51);
+    border-color: rgb(14, 2, 51);
+    color: #085ea9;  
+    padding: 0%;
+    margin: 0%;
+    margin-top: 30px;
+} 
+
+
+.offer {
+    color: #f8f5f5;
+    margin-top: 100px;
+    /* float: left; */
+}
+
+.bordered-div {
+    border: 2px solid #fdfcfc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+  } 
+
+.trust {
+    float: left;
+    font-size:large;
+    color:#f8f5f5;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%;
+    margin: 0%;
+    display: inline;
+}
+
+.pricing-table {
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    height: 500px;
+    margin-top: 1000px;
+}
+
+.plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    max-width: 300px;
+    background-color: (14, 2, 51);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.plan h2 {
+    font-size: 24px;
+    color: white
+}
+
+.plan .price {
+    font-size: 36px;
+    color: #007BFF;
+    margin-top: 10px;
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plan li {
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.plan .btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.btn1 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+.btn1:hover {
+    text-decoration-color: aqua;
+    text-decoration: underline;
+}
+
+footer {
+    background-color:(14, 2, 51);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    float: right;
+    margin-right: 20px;
+}
+
+.email-subscription {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.email-input {
+    padding: 5px;
+    width: 200px;
+}
+
+.subscribe-button {
+    background-color:(14, 2, 51);
+    color: #070707;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.social-icons {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: (59, 129, 221);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 80px;
+    float: right;
+    padding: 0%;
+}
+.logo2 {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+img {
+    width: auto;
+    height: 100px;
+}
+
+.wrapper2 {
+    width: 90%;
+    height: 0, auto;
+}
+
+.trustees i{
+    margin: 0 10px;
+    background-color: #f7f9fb;
+    color: #360ee8;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 100px;
+    padding: 30px;
+}
+
+.clients {
+    background-color: rgb(59, 129, 221);
+    height: 30vh;
+    width: 100%;
+}
+
+.porfolios li {
+    display: inline;
+    padding: 10px 10px;
+    margin: 0 10px;
+    margin-top: 50PX;
+}
+
+.porfolios li:hover {
+    text-decoration: wavy;
+    background-color:#007BFF;
+    border-radius: 20%;
+}
+
+.porfolios {
+    display: inline;
+    color: #ccc;
+}
+
+.awesome {
+    color: #ccc;
+    margin-top: 600px;
+    text-align: left;
+    padding: 100px;
+}
+
+.awesomely {
+    text-align: left;
+    margin-top: 10px;
+    padding: 50px;
+}
+
+.image-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 0 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    margin: 0 20px;
+}
+
+.roll {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    margin: 0 20px;
+}
+
+.column {
+    margin: 10px;
+    padding: 10px 10px;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.column img{
+    width: 400px;
+    height: 400px;
+}
+
+.column h1 {
+    color: #ccc;
+}
+
+.column h1:hover {
+    text-decoration: wavy;
+    background-color:#007BFF;
+}
+
+.aboutus img {
+    max-width:600px;
+    height: 600px;
+    align-items: right;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float: right;
+    padding: 60px;
+    z-index: -1;
+}
+
+.ourtrust {
+    margin-top: 50px;
+}
+
+.ourtrust h1 {
+    color: #ccc;
+}
+
+.ourtrust  p {
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.seemore {
+    float: right;
+
+}
+
+.btnsee {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+.worldwide {
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    height: 50px;
+    margin-top: 50px;
+}
+
+
+
+
+
